@@ -1,5 +1,5 @@
 [project]
-name = "wc-task-manager"
+name = "ws-task-manager"
 version = "0.1.0"
 description = "Simple implementation of task manager application using CRUD operations."
 readme = "README.md"
