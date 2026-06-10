@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Query, status, HTTPException
 from typing import Annotated
-from models import Status, TaskResponse, TaskCreate, TaskUpdate
+from dto import Status, TaskResponse, TaskCreate, TaskUpdate
 
 router = APIRouter(prefix="/tasks", tags=["Tasks"])
 
