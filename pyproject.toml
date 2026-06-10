@@ -4,4 +4,8 @@ version = "0.1.0"
 description = "Simple implementation of task manager application using CRUD operations."
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = ["fastapi[standard]>=0.136.3", "pydantic>=2.13.4"]
+dependencies = [
+    "fastapi[standard]>=0.136.3",
+    "pydantic>=2.13.4",
+    "sqlalchemy>=2.0.50",
+]
